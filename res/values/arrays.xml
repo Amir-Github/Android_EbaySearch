@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+  <string-array name="categories">
+  
+	<item>Antiques=20081</item>
+	<item>Art=550</item>
+	<item>Baby=2984</item>
+	<item>Beauty,Health=26395</item>
+	<item>Books=267</item>
+	<item>Business=170638</item>
+	<item>Cameras=625</item>
+	<item>Clothing,Shoes,Accessories=11450</item>
+	<item>Coins=11116</item>
+	<item>Collectables=1</item>
+	<item>Computers=58058</item>
+	<item>Crafts=14339</item>
+	<item>Dolls,Bears=237</item>
+	<item>Electronics=293</item>
+	<item>Home=11700</item>
+	<item>Industrial=170769</item>
+	<item>Jewellery=281</item>
+	<item>Music=11233</item>
+	<item>Musical-Instrument=619</item>
+	<item>Phones=14675</item>
+	<item>Pottery,Glass=870</item>
+	<item>Services=150968</item>
+	<item>Sport=167889</item>
+	<item>Stamps=260</item>
+	<item>Tickets,Travel=11730</item>
+	<item>Toys,Hobbies=220</item>
+	<item>VideoGames=1249</item>
+	<item>Others=99</item> 
+            
+   </string-array>
+    
+    
+
+
+
+
+
+
+
+    
+    
+</resources>

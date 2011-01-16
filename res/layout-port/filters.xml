@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:id="@+id/frame" >
+             
+<ViewFlipper android:id="@+id/mainView"
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content"
+              android:background="@color/black">
+
+   <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/firstPage">    
+   
+   </LinearLayout>
+   
+   <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/secondPage">    
+   
+   </LinearLayout>
+
+
+ </ViewFlipper>             
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="45dip"
+             android:padding="5dip"
+             android:id="@+id/tab" >
+             
+ <Button
+     android:layout_width="140dip"
+     android:layout_height="35dip"
+     android:layout_gravity="left"
+     android:text="OK"
+     android:id="@+id/okBtn" />          
+             
+   <Button
+     android:layout_width="140dip"
+     android:layout_height="35dip"
+     android:layout_gravity="right"
+     android:text="More..."
+     android:id="@+id/moreBtn" />             
+             
+</FrameLayout>             
+
+</LinearLayout> 

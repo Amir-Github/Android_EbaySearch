@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ebay Search</string>
+    <string name="details">Item Details</string>
+    <string name="back">Go Back</string>
+    <string name="filters">Search Filters</string>
+    <string name="filter_autoPay">Exclude Auto Pay : </string>
+    <string name="filter_featuredOnly">Featured Only : </string>
+    <string name="filter_getFast">Get It Fast Only : </string>
+    <string name="filter_freeShipping">Free Shipping Only: </string>
+    <string name="filter_topRated">Top Rated Sellers Only : </string>
+    <string name="filter_listingType">Listing Type : </string>
+    <string name="filter_condition">Condition : </string>
+    
+</resources>

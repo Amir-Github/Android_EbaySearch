@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content" 
+             android:id="@+id/checkBoxLayout" 
+             android:layout_gravity="center_horizontal"
+             android:padding="5dip"
+             android:layout_margin="1dip">
+          
+          
+   <TextView 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="left|center_vertical"
+     android:paddingLeft="5dip"
+     android:text=""
+     android:id="@+id/Desc" />           
+   
+   <CheckBox
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="right|center_vertical"
+     android:paddingRight="10dip"
+     android:id="@+id/check" />          
+    
+</FrameLayout>
+
+

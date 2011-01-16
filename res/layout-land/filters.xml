@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="500dip"
+            android:layout_height="fill_parent">
+            
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="500dip"
+             android:layout_height="fill_parent"
+             android:orientation="vertical"
+             android:id="@+id/frame" >
+             
+<ViewFlipper android:id="@+id/mainView"
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content">
+
+   <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/firstPage"
+    android:background="@color/black">    
+   
+   </LinearLayout>
+   
+  <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/secondPage">    
+   
+   </LinearLayout>
+  
+ </ViewFlipper>             
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="35dip"
+             android:padding="2dip">
+             
+ <Button
+     android:layout_width="245dip"
+     android:layout_height="35dip"
+     android:layout_gravity="left"
+     android:text="OK"
+     android:id="@+id/okBtn" />          
+             
+   <Button
+     android:layout_width="245dip"
+     android:layout_height="35dip"
+     android:layout_gravity="right"
+     android:text="More..."
+     android:id="@+id/moreBtn" />             
+             
+</FrameLayout>             
+
+</LinearLayout> 
+
+</ScrollView>

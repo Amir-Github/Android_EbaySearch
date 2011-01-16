@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content" 
+             android:orientation="horizontal"
+             android:id="@+id/spinnerLayout" 
+             android:padding="5dip"
+             android:layout_gravity="center_horizontal">
+          
+          
+   <TextView 
+     android:layout_width="100dip"
+     android:layout_height="wrap_content"
+     android:text=""
+     android:id="@+id/Desc" />           
+   
+   <Spinner
+     android:layout_width="180dip"
+     android:layout_height="wrap_content"
+     android:id="@+id/spinner" />          
+    
+</LinearLayout>
+
+

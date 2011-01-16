@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="200dip" 
+             android:id="@+id/frameLayout" 
+             android:layout_gravity="center_horizontal"
+             android:background="@color/black">
+             
+   <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentRight="true"
+     android:layout_centerVertical="true"
+     android:text="Cancel"
+     android:id="@+id/cancelBtn" />          
+             
+   <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_toLeftOf="@id/cancelBtn"
+     android:layout_centerVertical="true"
+     android:text="Search"
+     android:id="@+id/searchBtn" />          
+
+  <EditText 
+          android:layout_height="wrap_content"
+          android:layout_width="200dip"
+          android:layout_toLeftOf="@id/searchBtn" 
+          android:layout_centerVertical="true"
+          android:id="@+id/searchBox" />
+    
+    
+
+</RelativeLayout>
+
+
